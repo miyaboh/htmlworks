@@ -1,0 +1,29 @@
+#boxA{
+	position: static;
+	width: 200px;
+	height: 200px;
+	background: blue;
+}
+
+#boxB{
+	position: static;
+    width: 200px;
+    height: 200px;
+    background: green;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+
+    -webkit-transform:scale(0.5); ;
+    -ms-transform:scale(0.5); ;
+    -o-transform:scale(0.5);
+    transform:scale(0.5);
+}
+
+#boxB:hover{
+	background-color: #a347a9;
+	-webkit-transform: scale(1.5);
+	-ms-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	transform: scale(1.5);
+}

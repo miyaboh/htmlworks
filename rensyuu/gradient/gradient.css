@@ -1,0 +1,18 @@
+[class^=box]{
+    width: 200px;
+    height: 200px;
+    margin-right:10px;
+    float:left;
+}
+/* 線形グラデーション */
+.box1{
+    background-image: -webkit-linear-gradient(#fff, #f00);
+    background-image: -o-linear-gradient(#fff, #f00);
+    background-image: linear-gradient(#fff, #f00);
+}
+/* 円形グラデーション */
+.box2 { 
+    background-image : -webkit-radial-gradient(yellow, cyan);
+    background-image: -o-radial-gradient(#fff, #f00);
+    background-image: radial-gradient(#fff, #f00);
+}

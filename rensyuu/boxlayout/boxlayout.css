@@ -1,0 +1,30 @@
+header{
+    background: lightblue;
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+
+article{
+    background: lightgreen;
+    width: 200px;
+    height: 100px;
+    float: left;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+article:hover{
+	-webkit-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	transform: rotate(90deg);
+	margin-top: 100px;
+}
+
+footer{
+    background: lightyellow;
+    width: 200px;
+    height: 100px;
+    float: left;
+}

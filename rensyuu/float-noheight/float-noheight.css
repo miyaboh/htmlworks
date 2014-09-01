@@ -1,0 +1,23 @@
+#wrapper {
+  width: 500px;
+  padding: 10px;
+  background: pink;
+  overflow: auto;
+}
+#main {
+  float: left;
+  width: 60%;
+  height: 200px;
+  background: lightblue;
+}
+#side {
+  float: right;
+  width: 36%;
+  height: 200px;
+  background: lightgreen; 
+}
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}

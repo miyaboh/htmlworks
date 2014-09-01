@@ -1,0 +1,19 @@
+div     {
+    width: 600px;
+    border: 10px solid #CCC;
+    margin: 0 auto 20px;
+    min-height: 100px;
+    padding: 50px;
+}
+#content-box    {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -ms-box-sizing: content-box;
+    box-sizing: content-box;
+}
+#border-box {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}

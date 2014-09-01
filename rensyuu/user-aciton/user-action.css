@@ -1,0 +1,27 @@
+.hover{
+    width: 100px;
+    padding: 10px;
+    border: 1px solid red;
+    text-align: center;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+}
+.hover:hover{
+    background: red;
+}
+.active{
+    width: 100px;
+    padding: 10px;
+    border: 1px solid green;
+    text-align: center;
+}
+.active:active{
+    background: green;
+}
+.focus{
+    padding: 5px;
+}
+.focus:focus{
+    background: lightpink;
+}

@@ -1,0 +1,12 @@
+#main p{
+    color:red;
+}
+#main > p{
+    font-weight: bold;
+}
+#main h1 + p{
+    text-decoration: underline;
+}
+#main h1 ~ p{
+    letter-spacing:20px;
+}

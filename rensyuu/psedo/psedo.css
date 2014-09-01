@@ -1,0 +1,15 @@
+.quote {
+}
+
+.quote:before{
+    content:"△";
+}
+.quote:after{
+    content:"****/";
+}
+.sample:first-letter{
+    font-size:40px;
+}
+.sample:first-line{
+    font-weight:bold;
+}

@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'tanuki';
+    src: url('TanukiMagic.ttf') format('truetype');
+}
+#logo{
+    font-family:"tanuki";
+    font-size:40px;
+}
